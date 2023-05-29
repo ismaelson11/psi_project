@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #347bb9;
+  color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-areas: "perfil conteudo";
+  grid-template-columns: 0.5fr 1.5fr;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  grid-area: perfil;
+}
+
+aside img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+aside nav {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+aside nav a {
+  height: 30px;
+  width: 175px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  border: 25px solid transparent;
+  background: #7c93a7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo {
+  display: none;
+  
+}
