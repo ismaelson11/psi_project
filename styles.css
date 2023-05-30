@@ -32,6 +32,17 @@ aside nav {
   text-decoration: none;
 }
 
+.container {
+  width: 1.5fr;
+  display: flex;
+  justify-content: center;
+}
+
+.teste1 {
+  background-color: antiquewhite;
+  width: 700px;
+}
+
 .conteudo {
   display: none;
   text-align: left;
@@ -47,9 +58,10 @@ aside nav {
 
 .pergunta {
   display: none;
+  width: 700px;
 }
 
 #conteudo2 {
-  display: flex;
+  display: none;
   flex-direction: column;
 }
