@@ -36,11 +36,27 @@ aside nav {
   width: 1.5fr;
   display: flex;
   justify-content: center;
+  
 }
 
-.teste1 {
+#conteudo1 img{
+  max-height:50% ;
+  width: auto;
+  border-radius: 50%;
+}
+
+#conteudo2 .teste1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: antiquewhite;
-  width: 700px;
+  margin-top: 4px;
+  height: 40px;
+  width: 650px;
+  border-style: hidden;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  padding: 0 10px ;
 }
 
 .conteudo {
@@ -58,7 +74,10 @@ aside nav {
 
 .pergunta {
   display: none;
-  width: 700px;
+  width: 650px;
+  text-align: left;
+  padding: 0 10px;
+  margin: 10px 0;
 }
 
 #conteudo2 {
